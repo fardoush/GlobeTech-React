@@ -27,23 +27,17 @@ export const Services = () => {
                 <div className="row">
                   
 
-              <div className="col-lg-4 col-md-4 col-sm-12">
+              {/* <div className="col-lg-4 col-md-4 col-sm-12">
                 <Card
                
-                  card_title =" "
+               title={ServiceData[0].title}
                 />
-              </div>
+              </div> */}
+
+              {ServiceData.map(Card)}
 
 
-              <div className="col-lg-4 col-md-4 col-sm-12">
-                <Card/>
-              </div>
-
-
-
-              <div className="col-lg-4 col-md-4 col-sm-12">
-                <Card/>
-              </div>
+          
                 </div>
               </div>
 
